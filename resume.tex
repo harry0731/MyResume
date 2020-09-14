@@ -1,0 +1,117 @@
+% !TeX root = ./resume.tex
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+    % The font could be set to Windows-specific Calibri by using the 'calibri' option
+    \documentclass[]{mcdowellcv}
+
+    % For mathematical symbols
+    \usepackage{amsmath}
+
+    
+      % Set applicant's personal data for header
+      \name{Hugo Chen}
+      \address{Taipei, Taiwan R.O.C. \linebreak +886-988537425}
+      \contacts{hugo.chen731@gmail.com \linebreak https://www.linkedin.com/in/hugo-chen-62979b131/}
+    
+
+    \begin{document}
+% Print the header
+\makeheader
+      
+
+\begin{cvsection}{Experience}
+	\begin{cvsubsection}{Taipei, Taiwan R.O.C.}{Telexpress}{Sep 2018 -- Present}
+		Software Developer
+		\begin{itemize}
+			\item \textbf{Voive Bot} (Python)
+				\begin{itemize}%
+					\item Lead developer for developing a voice chatbot system on PBX telephony system.
+					\item Reduced 40\% CER by implementing key words correction algorithm on customized ASR system.
+					\item Further improve the key words detection rate by 28.6\% by building a customized ASR system.
+					\item Developed a gender recognition based in voice and implemented on the voice chatbot system with 98\% accuracy.
+					\item Developed a voiceprint verification system.
+					\item Improved a YouTube videos crawler to construct Mandarin ASR training dataset.
+				\end{itemize}
+			\item \textbf{Chatbot} (Python)
+				\begin{itemize}%
+					\item Developed backend APIs for the platform.
+					\item Integrated open source BI tool into the Platform.
+					\item Implemented business parter's decrypt algorithms in open source BI tool.
+				\end{itemize}
+			\item \textbf{E-Commerce Platform} (.Net Core)						
+				\begin{itemize}%
+					\item Developed backend APIs for the platform.
+					\item Integrated open source BI tool into the Platform.
+					\item Implemented business parter's decrypt algorithms in open source BI tool.
+				\end{itemize}
+			\item \textbf{Customer Service Online Chat} (.Net Framework)	
+				\begin{itemize}%
+					\item Implemented a new chatting channel on WeChat.
+					\item Implemented business parter's decrypt algorithms in the system (Java).
+				\end{itemize}
+			\item \textbf{DevOps}
+				\begin{itemize}%
+					\item Compile docker-compose yamls.
+					\item Compile Kubernetes yamls using Helm.
+				\end{itemize}
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+\begin{cvsection}{Education}
+	\begin{cvsubsection}{Yunlin, Taiwan R.O.C.}{National Yunlin University of Sciences and Technology}{Sep 2016 | Aug 2018}
+		\begin{itemize}
+			\item MS in Computer Science and Information Engineering. GPA: 4.0
+		\end{itemize}
+	\end{cvsubsection}
+	\begin{cvsubsection}{Taoyuan, Taiwan R.O.C.}{Chang Gung College}{Sep 2011 | June 2015}
+		\begin{itemize}
+			\item BS in Computer and Information Science.
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+\begin{cvsection}{Skills}
+	\begin{cvsubsection}{}{}{}
+		\begin{itemize}
+			\item Programming Languages:  Python (fluent), SQL (proficient), JavaScript (proficient), Shell Script(proficient), C/C++(prior experience), Java(prior experience), C\# .NET Core/Framework (proficient)
+			\item Technologies:  Git, Docker, Flask, MongoDB, Redis, MySQL, Microsoft SQL Server, Asterisk, Tensorflow, PyTorch, Kaldi, OpenCV
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+\begin{cvsection}{Projects}
+	\begin{cvsubsection}{}{}{}
+		\begin{itemize}
+			\setlength\itemsep{3pt}
+			\item \textbf{Crypto Trading Gym}  OpenAi custom environment in order to train agents profiting from crypto markets. Python, Pandas, Reinforcement Learning Python
+			\item \textbf{Access Control System with Face Recognition and RFID}  An access control system which check both user RFID number and facial features to gain authorization. This system is currently being used in YunTech Research Center. Python, MySQL
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+\begin{cvsection}{Awards}
+	\begin{cvsubsection}{}{}{}
+		\begin{itemize}
+			\setlength\itemsep{3pt}
+			\item \textbf{Phi Tau Phi Scholastic Honor Society}  2018
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+\ 
+\end{document}
