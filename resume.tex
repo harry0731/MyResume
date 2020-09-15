@@ -1,4 +1,3 @@
-% !TeX root = ./resume.tex
 %% The MIT License (MIT)
 %%
 %% Copyright (c) 2015 Daniil Belyakov
@@ -20,101 +19,106 @@
 %% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 %% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 %% SOFTWARE.
-    % The font could be set to Windows-specific Calibri by using the 'calibri' option
-    \documentclass[]{mcdowellcv}
 
-    % For mathematical symbols
-    \usepackage{amsmath}
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
 
-    
-      % Set applicant's personal data for header
-      \name{Hugo Chen}
-      \address{Taipei, Taiwan R.O.C. \linebreak +886-988537425}
-      \contacts{hugo.chen731@gmail.com \linebreak https://harry0731.github.io./}
-    
+% For mathematical symbols
+\usepackage{amsmath}
 
-    \begin{document}
-% Print the header
-\makeheader
-      
+% Set applicant's personal data for header
+\name{Hugo Chen}
+\address{No. 25, Alley 7, Lane 204, Section 4, Bade Road, Songshan District, \linebreak Taipei, Taiwan R.O.C.}
+\contacts{+886-988537425 \linebreak hugo.chen731@gmail.com }
 
-\begin{cvsection}{Experience}
-	\begin{cvsubsection}{Taipei, Taiwan R.O.C.}{Telexpress}{Sep 2018 -- Present}
-		\textbf{\textsl{Software Developer}}
-		\begin{itemize}
-			\item \textbf{Voive Bot} (Python)
-				\begin{itemize}%
-					\item Lead developer for developing a voice chatbot system on PBX telephony system.
-					\item Reduced 40\% CER by implementing key words correction algorithm on customized ASR system.
-					\item Further improve the key words detection rate by 28.6\% by building a customized ASR system.
-					\item Developed a gender recognition based in voice and implemented on the voice chatbot system with 98\% accuracy.
-					\item Developed a voiceprint verification system.
-					\item Improved a YouTube videos crawler to construct Mandarin ASR training dataset.
-				\end{itemize}
-			\item \textbf{Chatbot} (Python)
-				\begin{itemize}%
-					\item Developed a data augumentation system which combine severl algorithms.
-					\item Integrated SOTA NLP algorithm BERT to improve chatbot performance.
-				\end{itemize}
-			\item \textbf{E-Commerce Platform} (.Net Core)						
-				\begin{itemize}%
-					\item Developed backend APIs for the platform.
-					\item Integrated open source BI tool into the Platform.
-					\item Implemented business parter's decrypt algorithms in open source BI tool.
-				\end{itemize}
-			\item \textbf{Customer Service Online Chat} (.Net Framework)	
-				\begin{itemize}%
-					\item Implemented a new chatting channel on WeChat.
-					\item Implemented business parter's decrypt algorithms in the system (Java).
-				\end{itemize}
-			\item \textbf{DevOps}
-				\begin{itemize}%
-					\item Compile docker-compose yamls.
-					\item Compile Kubernetes yamls using Helm.
-				\end{itemize}
-		\end{itemize}
-	\end{cvsubsection}
-\end{cvsection}
-\begin{cvsection}{Education}
-	\begin{cvsubsection}{Yunlin, Taiwan R.O.C.}{National Yunlin University of Sciences and Technology}{Sep 2016 | Aug 2018}
-		\begin{itemize}
-			\item MS in Computer Science and Information Engineering. GPA: 4.0
-		\end{itemize}
-	\end{cvsubsection}
-	\begin{cvsubsection}{Taoyuan, Taiwan R.O.C.}{Chang Gung College}{Sep 2011 | June 2015}
-		\begin{itemize}
-			\item BS in Computer and Information Science.
-		\end{itemize}
-	\end{cvsubsection}
-\end{cvsection}
-\begin{cvsection}{Projects}
-	\begin{cvsubsection}{}{}{}
-		\begin{itemize}
-			\setlength\itemsep{3pt}
-			\item \textbf{ShortUrl}  A highly scalable url shortener service to reduce a long link. Using flask, MongoDB, Redis, and host on Digital Ocean.
-			\item \textbf{Crypto Trading Gym}  OpenAi custom environment in order to train agents profiting from crypto markets. Python
-			\item \textbf{Insult Puppy}  A frontend practice project which the insult content come from Evil Insult Generator API and the Puppies images come from RandomDog API. Developed using Vue. Host on Netlify.
-			\item \textbf{Game of Life}  In memory of Dr. John Horton Conway. Developed using Python, SciPy, and OpenCV.
-			\item \textbf{Access Control System with Face Recognition and RFID}  An access control system which check both user RFID number and facial features to gain authorization. This system is currently being used in YunTech Research Center.
-		\end{itemize}
-	\end{cvsubsection}
-\end{cvsection}
-\begin{cvsection}{Skills}
-	\begin{cvsubsection}{}{}{}
-		\begin{itemize}
-			\item Programming Languages:  Python (fluent), SQL (proficient), JavaScript (proficient), Shell Script(proficient), C/C++(prior experience), Java(prior experience), C\# .NET Core/Framework (proficient).
-			\item Technologies:  Git, Docker, Flask, MongoDB, Redis, MySQL, Microsoft SQL Server, Asterisk, Tensorflow, PyTorch, Kaldi, OpenCV.
-			\item Cloud Platforms:  Google Cloud Platform, Azure, Digital Ocean, Netlify.
-		\end{itemize}
-	\end{cvsubsection}
-\end{cvsection}
-\begin{cvsection}{Awards}
-	\begin{cvsubsection}{}{}{}
-		\begin{itemize}
-			\setlength\itemsep{3pt}
-			\item \textbf{Phi Tau Phi Scholastic Honor Society}  2018
-		\end{itemize}
-	\end{cvsubsection}
-\end{cvsection}
-\ 
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Software Engineer}{Telexpress}{Sep 2018 -- Present}
+			\textbf{Voive Bot (Python)}
+			\begin{itemize}
+				\item Lead developer for developing a voice chatbot system on PBX telephony system.
+				\item Reduced 40\% CER by implementing key words correction algorithm on customized ASR system.
+				\item Further improve the key words detection rate by 28.6\% by building a customized ASR system.
+				\item Developed a gender recognition based in voice and implemented on the voice chatbot system with 98\% accuracy.
+				\item Developed a voiceprint verification system.
+				\item Improved a YouTube videos crawler to construct Mandarin ASR training dataset.
+			\end{itemize}
+			\textbf{Chatbot (Python)}
+			\begin{itemize}
+				\item Developed a data augumentation system which combine severl algorithms.
+				\item Integrated SOTA NLP algorithm BERT to improve chatbot performance.
+				\item Reviewed industry-academy cooperation projects for the company.
+			\end{itemize}
+			\textbf{E-Commerce Platform (.Net Core)}
+			\begin{itemize}
+				\item Developed backend APIs for the platform.
+				\item Integrated open source BI tool into the Platform.
+				\item Implemented business parter's decrypt algorithms in open source BI tool.
+			\end{itemize}
+			\textbf{Customer Service Online Chat (.Net Framework)}
+			\begin{itemize}
+				\item Implemented a new chatting channel on WeChat.
+				\item Implemented business parter's decrypt algorithms in the system (Java).
+			\end{itemize}
+			\textbf{DevOps}
+			\begin{itemize}
+				\item Compile docker-compose yamls.
+				\item Compile Kubernetes yamls using Helm.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Yunlin, Taiwan R.O.C.}{National Yunlin University of Sciences and Technology}{Sep 2016 -- Aug 2018}
+			\bigskip
+			\begin{itemize}
+				\item M.S.E. in Computer Science and Information Engineering, Fall 2018.  GPA: 4.0
+				\item Graduate Coursework: Machine Learning, Pattern Recognition, Deep Learning, Image Processing.
+				\item Thesis: “Semi-supervised Learning Using Generative Adversarial Networks”
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Taoyuan, Taiwan R.O.C.}{Chang Gung College}{Sep 2011 -- June 2015}
+			\begin{itemize}
+				\item B.S.E. in Computer and Information Science, May 2015. 
+				\item Undergraduate Coursework: Calculus, Probability and Statistics, Linear Algebra, Database Systems, Object-Oriented Programming, Data Structures, Accounting, Management Science, Management,Information System.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{ShortUrl}  A highly scalable url shortener service to reduce a long link. Using flask, MongoDB, Redis, and host on Digital Ocean.
+				\item \textbf{Crypto Trading Gym}  OpenAi custom environment in order to train agents profiting from crypto markets. Python
+				\item \textbf{Insult Puppy}  A frontend practice project which the insult content come from Evil Insult Generator API and the Puppies images come from RandomDog API. Developed using Vue. Host on Netlify.
+				\item \textbf{Game of Life}  In memory of Dr. John Horton Conway. Developed using Python, SciPy, and OpenCV.
+				\item \textbf{Access Control System with Face Recognition and RFID}  An access control system which check both user RFID number and facial features to gain authorization. This system is currently being used in YunTech Research Center.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Phi Tau Phi Scholastic Honor Society (2018):} The honorable membership of the Phi Tau Phi Scholastic Honor Society (2018).
+				\item \textbf{TOEIC} TOEIC 865 Scores Golden Certificate.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Programming Languages:  Python (fluent), SQL (proficient), JavaScript (proficient), Shell Script(proficient), C/C++(prior experience), Java(prior experience), C\# .NET Core/Framework (proficient).
+				\item Technologies:  Git, Docker, Flask, MongoDB, Redis, MySQL, Microsoft SQL Server, Vue, Tensorflow, PyTorch, Kaldi, OpenCV.
+				\item Cloud Platforms:  Google Cloud Platform, Azure, Digital Ocean, Netlify.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
 \end{document}
