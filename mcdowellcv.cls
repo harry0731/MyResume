@@ -22,7 +22,7 @@
 \ProvidesClass{mcdowellcv}[2017/06/18 v1.2.0 McDowell CV class]
 
 % Set up the fonts according to options
-\def\mainfontsize{11pt}
+\def\mainfontsize{10pt}
 \def\mainfontface{Times New Roman}
 
 \DeclareOption{calibri}{%
@@ -35,7 +35,7 @@
 \LoadClass[letterpaper,\mainfontsize]{article} 
 
 % Set document margins
-\usepackage[left=0.6in,top=0.2in,right=0.6in,bottom=0.2in]{geometry} 
+\usepackage[left=0.6in,top=0.3in,right=0.6in,bottom=0.3in]{geometry} 
 
 % Set font face
 \usepackage{fontspec}
